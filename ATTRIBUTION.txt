@@ -1,0 +1,42 @@
+Nightingale Shared Care — Attribution
+
+Installed direct application and development dependencies (from package metadata):
+- drizzle-orm 0.45.2 — Apache-2.0 — git+https://github.com/drizzle-team/drizzle-orm.git
+- next 16.2.6 — MIT — vercel/next.js
+- react 19.2.6 — MIT — https://github.com/facebook/react.git
+- react-dom 19.2.6 — MIT — https://github.com/facebook/react.git
+- @cloudflare/vite-plugin 1.37.1 — MIT — https://github.com/cloudflare/workers-sdk.git
+- @tailwindcss/postcss 4.2.1 — MIT — https://github.com/tailwindlabs/tailwindcss.git
+- @types/node 22.19.19 — MIT — https://github.com/DefinitelyTyped/DefinitelyTyped.git
+- @types/react 19.2.14 — MIT — https://github.com/DefinitelyTyped/DefinitelyTyped.git
+- @types/react-dom 19.2.3 — MIT — https://github.com/DefinitelyTyped/DefinitelyTyped.git
+- @vitejs/plugin-react 6.0.2 — MIT — git+https://github.com/vitejs/vite-plugin-react.git
+- @vitejs/plugin-rsc 0.5.26 — MIT — git+https://github.com/vitejs/vite-plugin-react.git
+- drizzle-kit 0.31.10 — MIT — git+https://github.com/drizzle-team/drizzle-orm.git
+- eslint 9.39.4 — MIT — eslint/eslint
+- eslint-config-next 16.2.6 — MIT — vercel/next.js
+- react-server-dom-webpack 19.2.6 — MIT — https://github.com/facebook/react.git
+- tailwindcss 4.2.1 — MIT — https://github.com/tailwindlabs/tailwindcss.git
+- typescript 5.9.3 — Apache-2.0 — https://github.com/microsoft/TypeScript.git
+- vinext 0.0.50 — MIT — git+https://github.com/cloudflare/vinext.git
+- vite 8.0.13 — MIT — git+https://github.com/vitejs/vite.git
+- wrangler 4.92.0 — MIT OR Apache-2.0 — https://github.com/cloudflare/workers-sdk.git
+
+Test/runtime tools
+- Node.js: MIT and bundled third-party licenses; Node SQLite adapter is test-only.
+- esbuild (transitive bundler used by tests): MIT.
+- Python standard library: PSF license; legacy policy tests only.
+- ReportLab: BSD-3-Clause; generates the submission brief.
+- DejaVu Sans: Bitstream Vera/DejaVu font license; embedded only in the PDF brief (see docs/DEJAVU-LICENSE.txt).
+- Poppler: GPL-2.0-or-later; local PDF verification only, not shipped to the browser.
+
+Models, data and assets
+- No app-configured external LLM or paid speech API is called.
+- Browser SpeechRecognition may use an OS/vendor service; availability and terms vary. No acoustic model is bundled.
+- AI note imports explicitly identify an unverified upstream model and require synthetic data. Seed summaries are authored fixtures.
+- Importance ranking, limited conflict patterns, PHI patterns and the EN/ZH keyword glossary are project code, not trained medical models.
+- All included care records, names, IDs and source conversations are synthetic. No real patient material or external imagery is included.
+- Unicode symbols and CSS UI; no external icon pack or font file.
+
+Development assistance
+Built with OpenAI Codex/ChatGPT assistance. Final product decisions, validation and submission remain the candidate's responsibility.

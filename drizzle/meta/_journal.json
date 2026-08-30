@@ -1,0 +1,69 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1787763232290,
+      "tag": "0000_many_yellowjacket",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1787765941526,
+      "tag": "0001_spooky_the_stranger",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1787767560887,
+      "tag": "0002_volatile_valeria_richards",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1787769332951,
+      "tag": "0003_cuddly_nightshade",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1787772215196,
+      "tag": "0004_bored_quasar",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1787821367117,
+      "tag": "0005_fine_next_avengers",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1787843960299,
+      "tag": "0006_dapper_greymalkin",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1787846864082,
+      "tag": "0007_nice_george_stacy",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1787850034938,
+      "tag": "0008_colorful_chronomancer",
+      "breakpoints": true
+    }
+  ]
+}
